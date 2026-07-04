@@ -4,13 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mohit Kalra | Software Engineer</title>
-  <meta name="description" content="Mohit Kalra is a software engineer in Gurgaon building across Python, Java, C++, distributed systems, data systems, and web projects." />
+  <meta name="description" content="Mohit Kalra is a software engineer in Gurgaon with experience across backend systems, distributed systems, data systems, and applied software projects." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="navbar">
+  <header class="site-header">
     <a class="brand" href="#top">Mohit Kalra</a>
-    <nav class="nav-links" aria-label="Primary navigation">
+    <nav aria-label="Primary navigation">
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
@@ -18,129 +18,95 @@
   </header>
 
   <main id="top">
-    <section class="hero" aria-labelledby="intro-title">
-      <div class="hero-portrait" aria-hidden="true">
-        <img src="assets/images/profile.png" alt="" />
-      </div>
-
-      <div class="hero-copy">
-        <p class="eyebrow">Software Engineer &middot; Gurgaon</p>
-        <h1 id="intro-title">I build practical software and keep learning in public.</h1>
-        <p>
-          I am Mohit Kalra, a software engineer with work and practice across
-          Python, Java, C++, distributed systems, database internals, machine
-          learning coursework, and web projects.
+    <section class="intro" aria-labelledby="intro-title">
+      <div class="intro-copy">
+        <p class="label">Software Engineer &middot; Gurgaon</p>
+        <h1 id="intro-title">Building reliable software across systems, data, and product surfaces.</h1>
+        <p class="lead">
+          I am a software engineer with a foundation in Python, Java, C++,
+          distributed systems, database internals, and practical web projects.
+          This portfolio is a working draft of the projects and experience I
+          want to present clearly.
         </p>
-        <div class="actions">
-          <a class="button primary" href="#projects">View Projects</a>
-          <a class="button secondary" href="mailto:mohit2494@gmail.com">Contact Me</a>
+        <div class="links">
+          <a href="mailto:mohit2494@gmail.com">Email</a>
+          <a href="https://github.com/mohit2494" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://mohitkalra.co.in" target="_blank" rel="noopener">Website</a>
         </div>
       </div>
+      <img class="profile-photo" src="assets/images/profile.png" alt="Mohit Kalra" />
     </section>
 
-    <section id="about" class="section about-section" aria-labelledby="about-title">
-      <div>
-        <p class="section-kicker">About</p>
-        <h2 id="about-title">A broad engineering foundation, from algorithms to systems.</h2>
-      </div>
-      <div class="about-content">
+    <section id="about" class="section two-column" aria-labelledby="about-title">
+      <h2 id="about-title">About</h2>
+      <div class="section-body">
         <p>
-          My public work shows a consistent focus on fundamentals: data
+          My public work reflects a steady focus on fundamentals: data
           structures, algorithms, Python practice, Java problem solving, C++
           coursework, database implementation, and distributed systems.
         </p>
         <p>
-          This site is the starting point for collecting those projects into a
-          clearer portfolio, with source links and concise notes on what each
-          project demonstrates.
+          The next step is to shape this into a sharper professional narrative:
+          the problems I have worked on, the systems I have built, and the
+          outcomes behind each project.
         </p>
       </div>
     </section>
 
-    <section id="projects" class="section" aria-labelledby="projects-title">
-      <div class="section-heading">
-        <p class="section-kicker">Selected Work</p>
-        <h2 id="projects-title">Projects from GitHub</h2>
-      </div>
-
-      <div class="project-grid">
-        <article class="project-card">
-          <div class="project-meta">
-            <span>Python</span>
-            <span>Cost Modeling</span>
+    <section id="projects" class="section two-column" aria-labelledby="projects-title">
+      <h2 id="projects-title">Selected Projects</h2>
+      <div class="project-list">
+        <article class="project-item">
+          <div>
+            <h3>Welltok Assessment</h3>
+            <p>A Python tool for calculating total cost across a multi-campaign customer project.</p>
           </div>
-          <h3>Welltok Assessment</h3>
-          <p>A tool for calculating total cost across a multi-campaign customer project.</p>
-          <a href="https://github.com/mohit2494/welltok-assessment" target="_blank" rel="noopener">View Repository</a>
+          <a href="https://github.com/mohit2494/welltok-assessment" target="_blank" rel="noopener">Repository</a>
         </article>
 
-        <article class="project-card">
-          <div class="project-meta">
-            <span>F#</span>
-            <span>Distributed Systems</span>
+        <article class="project-item">
+          <div>
+            <h3>Sum Of Squares</h3>
+            <p>An actor-model solution for a number-theory problem, built with a distributed systems focus.</p>
           </div>
-          <h3>Sum Of Squares</h3>
-          <p>An actor-model solution for finding perfect squares that are sums of consecutive squares.</p>
-          <a href="https://github.com/mohit2494/SumOfSquares" target="_blank" rel="noopener">View Repository</a>
+          <a href="https://github.com/mohit2494/SumOfSquares" target="_blank" rel="noopener">Repository</a>
         </article>
 
-        <article class="project-card">
-          <div class="project-meta">
-            <span>C++</span>
-            <span>Databases</span>
+        <article class="project-item">
+          <div>
+            <h3>Database Implementation</h3>
+            <p>C++ coursework and implementation exercises for database system internals.</p>
           </div>
-          <h3>Database Implementation</h3>
-          <p>Coursework and implementation exercises for database system internals.</p>
-          <a href="https://github.com/mohit2494/Database-Implementation" target="_blank" rel="noopener">View Repository</a>
+          <a href="https://github.com/mohit2494/Database-Implementation" target="_blank" rel="noopener">Repository</a>
         </article>
 
-        <article class="project-card">
-          <div class="project-meta">
-            <span>Java</span>
-            <span>Algorithms</span>
+        <article class="project-item">
+          <div>
+            <h3>Leet</h3>
+            <p>Java practice for algorithmic problem solving and interview-style coding exercises.</p>
           </div>
-          <h3>Leet</h3>
-          <p>A repository for LeetCode practice and algorithmic problem solving in Java.</p>
-          <a href="https://github.com/mohit2494/leet" target="_blank" rel="noopener">View Repository</a>
-        </article>
-
-        <article class="project-card">
-          <div class="project-meta">
-            <span>Jupyter</span>
-            <span>ML</span>
-          </div>
-          <h3>Pattern Recognition</h3>
-          <p>Spring 2020 pattern-recognition assignments and notebook-based experiments.</p>
-          <a href="https://github.com/mohit2494/Pattern-Recognition-Spring-2020" target="_blank" rel="noopener">View Repository</a>
-        </article>
-
-        <article class="project-card">
-          <div class="project-meta">
-            <span>HTML</span>
-            <span>Portfolio</span>
-          </div>
-          <h3>Personal Website</h3>
-          <p>The GitHub Pages site you are viewing now, built as a clean static portfolio.</p>
-          <a href="https://github.com/mohit2494/mohit2494.github.io" target="_blank" rel="noopener">View Repository</a>
+          <a href="https://github.com/mohit2494/leet" target="_blank" rel="noopener">Repository</a>
         </article>
       </div>
     </section>
 
-    <section id="contact" class="section contact-section" aria-labelledby="contact-title">
-      <div>
-        <p class="section-kicker">Contact</p>
-        <h2 id="contact-title">Let us connect.</h2>
-      </div>
-      <div class="contact-links">
-        <a href="mailto:mohit2494@gmail.com">mohit2494@gmail.com</a>
-        <a href="https://github.com/mohit2494" target="_blank" rel="noopener">GitHub</a>
-        <a href="https://mohitkalra.co.in" target="_blank" rel="noopener">mohitkalra.co.in</a>
+    <section id="contact" class="section two-column" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact</h2>
+      <div class="section-body">
+        <p>
+          I am easiest to reach by email. You can also review the source for
+          this site and other projects on GitHub.
+        </p>
+        <div class="links">
+          <a href="mailto:mohit2494@gmail.com">mohit2494@gmail.com</a>
+          <a href="https://github.com/mohit2494" target="_blank" rel="noopener">github.com/mohit2494</a>
+        </div>
       </div>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2026 Mohit Kalra. Template structure adapted from the CC0 Unemployables Portfolio Template.</p>
+    <p>&copy; 2026 Mohit Kalra</p>
   </footer>
 </body>
 </html>
