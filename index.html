@@ -14,9 +14,11 @@
     <a class="brand" href="#top">Mohit Kalra</a>
     <nav aria-label="Primary navigation">
       <a href="#endeavor">Endeavor</a>
+      <a href="#why">Why It Matters</a>
       <a href="#work">Work</a>
-      <a href="#focus">Focus</a>
+      <a href="#map">Technical Map</a>
       <a href="#context">Context</a>
+      <a href="#updates">Updates</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
@@ -41,7 +43,7 @@
         </p>
         <div class="hero-actions">
           <a class="button primary" href="#endeavor">Read the Endeavor</a>
-          <a class="button secondary" href="#context">Public Context</a>
+          <a class="button secondary" href="#map">Explore the Technical Map</a>
         </div>
       </div>
       <div class="hero-visual">
@@ -52,6 +54,11 @@
     <section id="endeavor" class="section split">
       <h2>Endeavor</h2>
       <div class="content">
+        <p class="section-lead">
+          My professional focus is privacy infrastructure for artificial
+          intelligence: the engineering layer that turns privacy requirements
+          into systems developers can use, operate, and verify.
+        </p>
         <p>
           My long-term endeavor is to advance privacy infrastructure for
           artificial intelligence: systems, tools, and engineering patterns that
@@ -65,6 +72,38 @@
           lineage, policy enforcement, asset classification, developer workflows,
           and runtime controls that scale with product velocity.
         </p>
+      </div>
+    </section>
+
+    <section id="why" class="section split">
+      <h2>Why It Matters</h2>
+      <div class="content">
+        <div class="insight-grid">
+          <article>
+            <h3>AI expands the data surface area</h3>
+            <p>
+              GenAI systems can depend on large, complex, and fast-changing data
+              flows. Privacy work has to account for training data, retrieval,
+              evaluation, logging, feedback loops, and downstream product use.
+            </p>
+          </article>
+          <article>
+            <h3>Governance needs infrastructure</h3>
+            <p>
+              Policies become durable only when they are embedded into developer
+              workflows, data systems, enforcement services, observability, and
+              runtime controls.
+            </p>
+          </article>
+          <article>
+            <h3>Scale changes the problem</h3>
+            <p>
+              At large product scale, manual review alone cannot keep pace.
+              Teams need reusable primitives for lineage, classification,
+              purpose limitation, access boundaries, and auditability.
+            </p>
+          </article>
+        </div>
       </div>
     </section>
 
@@ -87,15 +126,44 @@
       </div>
     </section>
 
-    <section id="focus" class="section split">
-      <h2>Technical Focus</h2>
+    <section id="map" class="section split">
+      <h2>Technical Map</h2>
       <div class="content">
-        <ul class="focus-list">
-          <li>Privacy-aware infrastructure for AI and GenAI systems</li>
-          <li>Data lineage, observability, and policy enforcement</li>
-          <li>Developer workflows for privacy and compliance engineering</li>
-          <li>Reliable backend platforms that operate at production scale</li>
-        </ul>
+        <p>
+          I think about AI privacy infrastructure as a system of connected
+          layers. Each layer has to be understandable to developers, enforceable
+          by platforms, and measurable by privacy and governance teams.
+        </p>
+        <div class="map-list">
+          <article>
+            <span>01</span>
+            <div>
+              <h3>Data understanding</h3>
+              <p>Lineage, asset discovery, data classification, sensitivity signals, and data-flow visibility.</p>
+            </div>
+          </article>
+          <article>
+            <span>02</span>
+            <div>
+              <h3>Policy translation</h3>
+              <p>Turning privacy requirements into machine-readable constraints, product rules, and platform contracts.</p>
+            </div>
+          </article>
+          <article>
+            <span>03</span>
+            <div>
+              <h3>Enforcement and guardrails</h3>
+              <p>Purpose limitation, access controls, runtime checks, workflow gates, and safe defaults for AI builders.</p>
+            </div>
+          </article>
+          <article>
+            <span>04</span>
+            <div>
+              <h3>Observability and assurance</h3>
+              <p>Auditing, monitoring, explainability for data movement, compliance evidence, and operational reliability.</p>
+            </div>
+          </article>
+        </div>
       </div>
     </section>
 
@@ -103,11 +171,23 @@
       <h2>Public Context</h2>
       <div class="content">
         <p>
-          These Meta Engineering posts describe the broader technical area I
-          work in: Privacy Aware Infrastructure, purpose limitation, data
-          lineage, and privacy infrastructure for GenAI product development.
+          These public resources describe the broader technical and governance
+          landscape around AI risk management, privacy engineering, privacy
+          enhancing technologies, and Meta's Privacy Aware Infrastructure.
         </p>
         <div class="article-list">
+          <a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener">
+            <span>NIST</span>
+            <strong>AI Risk Management Framework</strong>
+          </a>
+          <a href="https://www.nist.gov/privacy-framework" target="_blank" rel="noopener">
+            <span>NIST</span>
+            <strong>Privacy Framework</strong>
+          </a>
+          <a href="https://www.oecd.org/en/topics/sub-issues/privacy-enhancing-technologies.html" target="_blank" rel="noopener">
+            <span>OECD</span>
+            <strong>Privacy-enhancing technologies</strong>
+          </a>
           <a href="https://engineering.fb.com/2024/08/27/security/privacy-aware-infrastructure-purpose-limitation-meta/" target="_blank" rel="noopener">
             <span>2024</span>
             <strong>How Meta enforces purpose limitation via Privacy Aware Infrastructure at scale</strong>
@@ -117,6 +197,23 @@
             <strong>Scaling Privacy Infrastructure for GenAI Product Innovation</strong>
           </a>
         </div>
+      </div>
+    </section>
+
+    <section id="updates" class="section split">
+      <h2>Planned Updates</h2>
+      <div class="content">
+        <p>
+          This site will evolve as I add more detail about my work experience,
+          technical writing, public resources, and the broader case for privacy
+          infrastructure in AI systems.
+        </p>
+        <ul class="focus-list">
+          <li>Work experience and impact summaries</li>
+          <li>Short explainers on AI privacy infrastructure concepts</li>
+          <li>Reading notes from public standards, frameworks, and engineering posts</li>
+          <li>Selected talks, writing, or artifacts as they become available</li>
+        </ul>
       </div>
     </section>
 
